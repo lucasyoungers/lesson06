@@ -1,15 +1,26 @@
 body {
     margin: 0;
-    font-family: Arial;
+    font-family: 'Lusitana', serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Raleway', sans-serif;
 }
 
 article, h1 {
     margin-left: 20px;
 }
 
+.header-img {
+    width: 100%;
+}
+
 .navbar {
-    background-color: black;
+    background-color: #3f3838;
     overflow: auto;
+    /*position: -webkit-sticky;
+    position: sticky; /* Breaks dropdown for some reason */
+    top: 0;
 }
 
 .navbar a {
@@ -38,7 +49,7 @@ article, h1 {
 }
 
 .navbar a:hover, .dropdown:hover .dropbutton {
-    background-color: gray;
+    background-color: rgb(255, 217, 49);
 }
 
 .dropdown-content {
@@ -60,7 +71,7 @@ article, h1 {
 }
 
 .dropdown-content a:hover {
-    background-color: gray;
+    background-color: rgb(255, 217, 49);
 }
 
 .dropdown:hover .dropdown-content {
@@ -68,5 +79,5 @@ article, h1 {
 }
 
 .activemenuitem {
-    background-color: green;
+    background-color: rgb(255, 196, 0);
 }
