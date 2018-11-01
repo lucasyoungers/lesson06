@@ -17,8 +17,7 @@ article, h1 {
 
 .navbar {
     background-color: #3f3838;
-    overflow: auto;
-    /*position: -webkit-sticky;
+    position: -webkit-sticky;
     position: sticky; /* Breaks dropdown for some reason */
     top: 0;
 }
@@ -34,7 +33,7 @@ article, h1 {
 
 .dropdown {
     float: left;
-    overflow: auto;
+    overflow: hidden;
 }
 
 .dropdown .dropbutton {
